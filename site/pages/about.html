@@ -1,47 +1,51 @@
 <!DOCTYPE html>
-
 <html lang="ru">
 <head>
     <meta charset="utf-8">
     <title>О нас - "Пойдём домой"</title>
+    <!-- CSS: курсор, фоновое изображение, ссылки-кнопки и прозрачная шапка сайта -->
     <style>
        body {
-            cursor: url(../images/premium-icon-paw-print-3905408\ \(1\).png), default; 
+            cursor: url(../images/premium-icon-paw-print-3905408\ \(1\).png), default; /* Курсор для всей страницы */
             background: #634e44 url(../images/brianna-tucker-LGG5P7KCziU-unsplash.jpg); /* Цвет фона и путь к файлу */
             background-size: cover; background-repeat: no-repeat; background-attachment: fixed;
             color: #fff; /* Цвет текста */
-            text-shadow: 1px 1px 1px #000
+            text-shadow: 1px 1px 1px #000 /* Тень текста */
         }
         header {
             display: block;
             background: #f3eaea21
         }
+        /* Включить, чтобы сделать симметричный шапке прозрачный подвал */
         /* footer {
             display: block;
             background: #f3eaea21
         } */
         a {
             cursor: url(../images/premium-icon-paw-print-3905408\ \(1\).png), pointer; /*Курсор для ссылок*/
-            display: inline-block; /* Строчно-блочный элемент */
-            background: #f3eaea44; /* Серый цвет фона */
-            color: #fff; /* Белый цвет текста */
-            padding: 1rem 1.5rem; /* Поля вокруг текста */
-            text-decoration: none; /* Убираем подчёркивание */
-            border-radius: 3px; /* Скругляем уголки */
+            display: inline-block; 
+            background: #f3eaea44; 
+            color: #fff; 
+            padding: 1rem 1.5rem; 
+            text-decoration: none; 
+            border-radius: 3px; 
         }
         a:hover {
-            color: #c0b4b4; /* Цвет ссылки при наведении на нее курсора мыши */  
-            text-decoration: none; /* Добавляем подчеркивание */
+            color: #c0b4b4; /* Цвет ссылки при наведении на неё курсора */  
+            text-decoration: none; /* Убирает подчёркивание */
         }
        </style>
 </head>
 <body>
+    <!-- Шапка сайта (меню) -->
     <header>
         <a href="../index.html">Главная</a>
         <a href="#">О нас</a>
         <a href="contacts.html">Контакты</a>
     </header>
+    <!-- Основная часть сайта -->
     <main>
+        <!-- Использую br для выравнивания, чтобы лишний раз не использовать css в этом задании -->
         <br>
         <br>
         <br>
@@ -49,6 +53,7 @@
         <br>
         <br>
         <br>
+        <!-- align и style здесь по той же причние: лишний раз не использовать css в этом задании -->
         <h1 align="center" style=font-family:sans-serif>О нас</h1>
         <p align="right" style=font-family:consolas>Приют <b>"Пойдём домой"</b> - это муниципальный приют для бездомных собак и кошек
             <br> в Медведково. В нём живёт почти 300 собак и 150 кошек. Ежедневно находятся
@@ -77,6 +82,7 @@
             <br>
             <br>
     </main>
+    <!-- Подвал сайта -->
     <footer>
             <span>&copy;&nbsp;Пойдём домой, 2013-2022</span>
     </footer>
